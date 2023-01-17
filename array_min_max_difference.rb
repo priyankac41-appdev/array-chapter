@@ -7,3 +7,9 @@
 #   difference
 
 array = [12, 23, 41, 73, 19, 6]
+lowest_number = array.min.to_i
+highest_number = array.max.to_i
+diff = highest_number-lowest_number
+p lowest_number
+p highest_number
+p diff
